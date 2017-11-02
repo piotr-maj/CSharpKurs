@@ -7,13 +7,13 @@ namespace Hello
     {
         static void Main(string[] args)
         {
-            //string name = args[0];
-            //Console.WriteLine("Witaj " + args[0]);
+            string name = args[0];
+            Console.WriteLine("Witaj " + args[1]);
 
-            foreach (var item in args)
-            {
-                Console.WriteLine("Witaj " + item);
-            }
+           // foreach (var item in args)
+           // {
+           //     Console.WriteLine("Witaj " + item);
+           // }
         }
     }
 }
