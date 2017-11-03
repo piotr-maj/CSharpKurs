@@ -7,13 +7,43 @@ namespace Hello
     {
         static void Main(string[] args)
         {
-            string name = args[0];
-            Console.WriteLine("Witaj " + args[1]);
+            for (; ;)
+            {
 
-           // foreach (var item in args)
-           // {
-           //     Console.WriteLine("Witaj " + item);
-           // }
+                
+                Console.Write("Podaj swoje imie: ");
+                string name = Console.ReadLine();
+                Console.WriteLine("Witaj " + name);
+
+                Console.Write("Podaj swój wiek: ");
+                int age;
+                bool result = int.TryParse(Console.ReadLine(), out age);
+
+                if (age > 18)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Możesz wypić browara.");
+                }
+
+                else if (result == false)
+                {
+                    Console.Write("Wprowadziłeś niewłaściwy wiek.");
+                }
+
+                else
+                {
+                    Console.Write("Jesteś niepełnoletni, dostaniesz mleko.");
+                }
+
+                Console.ReadKey();
+                Console.Clear();
+                Console.ResetColor();
+            }
+
+            // foreach (var item in args)
+            // {
+            //     Console.WriteLine("Witaj " + item);
+            // }
         }
     }
 }
