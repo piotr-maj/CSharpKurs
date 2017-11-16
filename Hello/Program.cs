@@ -14,8 +14,8 @@ namespace Hello
                 Settings();
             }
 
-            // foreach (var item in args)
-            // {
+            // foreach (var item in args) 
+            // { 
             //     Console.WriteLine("Witaj " + item);
             // }
         }
