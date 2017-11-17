@@ -12,7 +12,7 @@ namespace StudentDiary
         // stan klasy
         // ratings - zmienna oceny
 
-        List<float> ratings;
+        List<float> ratings = new List<float>();
 
         // achowania klasy, metody
         // rating - zemianna ocena
