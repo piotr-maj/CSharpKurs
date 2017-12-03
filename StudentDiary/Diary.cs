@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace StudentDiary
 {
-    class Diary
+        class Diary
     {
-
+        public Diary()
+        {
+            ratings = new List<float>();
+        }
         // stan klasy
         // ratings - zmienna oceny
 
-        List<float> ratings = new List<float>();
+        List<float> ratings;
 
         // achowania klasy, metody
         // rating - zemianna ocena
