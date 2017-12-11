@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8F7026DD-2156-416C-AF06-A6B2E40677CA}</ProjectGuid>
+    <ProjectGuid>{18895288-07C5-4ED6-9DE4-8AEE666E23C9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StudentDiary</RootNamespace>
-    <AssemblyName>StudentDiary</AssemblyName>
+    <RootNamespace>Odcinek_10</RootNamespace>
+    <AssemblyName>Odcinek 10</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Diary.cs" />
-    <Compile Include="DiaryStatistics.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

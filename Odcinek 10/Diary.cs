@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentDiary
+namespace Odcinek_10
 {
         class Diary
     {
@@ -16,11 +16,6 @@ namespace StudentDiary
         // ratings - zmienna oceny
 
         List<float> ratings;
-
-        internal DiaryStatistics ComputeStatistics()
-        {
-            throw new NotImplementedException();
-        }
 
         // achowania klasy, metody
         // rating - zemianna ocena
